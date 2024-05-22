@@ -23,9 +23,26 @@ class Circulo():
 
 if __name__ == '__main__':
     # Criando um objeto chamado  Estudandte1 a partir da class Funcionario
-    pass
+    circ = Circulo()
 
     # Usando o métado da class
+    print(circ.getRaio())
+
+    # criando outro objeto chamado circ1, Uma instancia da class Circulo()
+    # Agora sobrescrevendo o valor do atributo
+    circ1 =  Circulo(7)
+
+    # Imprimindo o raio
+    print(f'O raio é {circ1.getRaio()}')
+
+    # Imprimindo a area
+    print(f'O area é {circ1.area()}')
+
+    # Gerando um novo valor para o raio do circulo
+    circ1.setRaio(3)
+
+    # Imprimindo o novo raio
+    print(f'Novo raio igual a, {circ1.getRaio()}')
 
     
     
