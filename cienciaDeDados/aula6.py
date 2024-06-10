@@ -67,3 +67,22 @@ print(np.linalg.inv(m1))
 # Matriz transporta
 print(np.transpose(m1))
 print(m1.T)
+
+arr3 = np.array([1,2,3,4])
+
+# arr3 + arr1 
+
+arr3 = np.array([[1,2,3], [4, 5,6]])
+
+print(arr3 + arr1)
+
+x = np.arange(4)
+xx = x.reshape(4,1)
+y = np.ones(5)
+z = np.ones((3, 4))
+
+print((xx + y).shape)
+print(xx + y)
+
+print((x + z).shape)
+print(x + z)
