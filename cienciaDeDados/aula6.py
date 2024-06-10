@@ -86,3 +86,15 @@ print(xx + y)
 
 print((x + z).shape)
 print(x + z)
+
+
+# EXecicio
+np.random.seed(42)
+a = np.random.random(size=3)
+b = np.random.random(size=3)
+
+
+diferencia = a - b
+
+euclides = np.sqrt(np.sum(diferencia ** 2))
+print(euclides)
